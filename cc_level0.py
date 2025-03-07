@@ -46,5 +46,5 @@ dll = DoublyLinkedList()
 dll.insert_head(1)
 dll.insert_tail(2)
 dll.insert_head(0)
-dll.traverse_forward()  # Output: 0 <-> 1 <-> 2 <-> None
-dll.traverse_backward()  # Output: 2 <-> 1 <-> 0 <-> None
+dll.traverse_forward()  
+dll.traverse_backward() 

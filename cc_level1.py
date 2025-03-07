@@ -5,7 +5,7 @@ class MinMaxStack:
         self.max_stack = [] 
 
     def push(self, x):
-      """"Pushes element x onto the stack."""
+        """Pushes element x onto the stack."""
         self.stack.append(x)
         
         # Update min stack
@@ -13,7 +13,7 @@ class MinMaxStack:
             self.min_stack.append(x)
         else:
             self.min_stack.append(self.min_stack[-1])
-        
+
         # Update max stack
         if not self.max_stack or x >= self.max_stack[-1]:
             self.max_stack.append(x)
@@ -54,10 +54,10 @@ stack.push(3)
 stack.push(8)
 stack.push(2)
 
-print(stack.getMin())  # Output: 2
-print(stack.getMax())  # Output: 8
-print(stack.top())     # Output: 2
+print("Min:", stack.getMin())  
+print("Max:", stack.getMax())  
+print("Top:", stack.top())  
 
 stack.pop()
-print(stack.getMin())  # Output: 3
-print(stack.getMax())  # Output: 8
+print("Min after pop:", stack.getMin())  
+print("Max after pop:", stack.getMax())  

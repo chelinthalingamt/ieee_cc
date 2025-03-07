@@ -25,4 +25,4 @@ merger = IntervalMerger()
 merger.addInterval(1, 5)
 merger.addInterval(6, 8)
 merger.addInterval(4, 7)
-print(merger.getIntervals())  # Output: [[1, 8]]
+print(merger.getIntervals()) 
