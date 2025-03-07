@@ -13,6 +13,10 @@ Insert at head/tail → O(1)
 Traverse forward/backward → O(n)  
 Space Complexity → O(n)  
 
+**Use-Cases**
+![alt text](images/image.png)  
+![alt text](image/image-1.png)  
+
 
 # LEVEL 1 : Custom Data Structure – Stack
 
@@ -24,6 +28,10 @@ Space Complexity → O(n)
 **Complexities**  
 Push, Pop, Top, GetMin, GetMax → O(1)  
 Space Complexity → O(n)  
+
+**Use-Cases**
+![alt text](image/image-2.png)   
+![alt text](image/image-3.png)  
 
 
 # LEVEL 2 : Composite Data Structure – Interval Merger
@@ -37,6 +45,9 @@ Add Interval → O(log n)
 Merge & Get Intervals → O(n)  
 Space Complexity → O(n)  
 
+**Use-Cases**
+![alt text](image/image-4.png)  
+![alt text](image/image-5.png)  
 
 # LEVEL 3: Composite Data Structure – Time-Based Cache
 
@@ -50,3 +61,7 @@ Set (Insert Key with Expiry) → O(log n)
 Get (Retrieve Value if Not Expired) → O(log n)  
 Automatic Expiry Removal → O(log n)  
 Space Complexity → O(n)  
+
+**Use-Cases**
+![alt text](image/image-6.png)  
+![alt text](image/image-7.png)  
