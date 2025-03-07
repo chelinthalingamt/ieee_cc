@@ -47,7 +47,7 @@ class MinMaxStack:
             return self.max_stack[-1]
         raise IndexError("Stack is empty")
 
-# Example usage:
+# Example Usage:
 stack = MinMaxStack()
 stack.push(5)
 stack.push(3)
