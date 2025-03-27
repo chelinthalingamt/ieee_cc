@@ -1,4 +1,4 @@
-# IEEE_CC : Composite Data Structure Implementations
+# Composite Data Structure Implementations
 
 This project includes multiple data structure implementations, each optimized for specific operations and efficiency.
 
